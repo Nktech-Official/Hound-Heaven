@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Bat-1",
+        "width": 499,
+        "height": 44,
+        "frameW": 83,
+        "frameH": 44,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Bat-2",
+        "width": 1904,
+        "height": 167,
+        "frameW": 238,
+        "frameH": 167,
+        "animations": {
+            "name": "first",
+            "frames": 8
+        }
+    },
+    {
+        "name": "Bat-3",
+        "width": 1596,
+        "height": 188,
+        "frameW": 266,
+        "frameH": 188,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Digger",
+        "width": 2080,
+        "height": 178,
+        "frameW": 260,
+        "frameH": 188,
+        "animations": {
+            "name": "first",
+            "frames": 8
+        }
+    },
+    {
+        "name": "Fly",
+        "width": 360,
+        "height": 44,
+        "frameW": 60,
+        "frameH": 44,
+        "animations": {
+            "name": "first",
+            "frames": 8
+        }
+    },
+    {
+        "name": "Ghost-1",
+        "width": 1308,
+        "height": 177,
+        "frameW": 218,
+        "frameH": 177,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Ghost-2",
+        "width": 160,
+        "height": 89,
+        "frameW": 80,
+        "frameH": 89,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Ghost-3",
+        "width": 524,
+        "height": 70,
+        "frameW": 87,
+        "frameH": 70,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Ghost-4",
+        "width": 361,
+        "height": 70,
+        "frameW": 60,
+        "frameH": 70,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Ground-Zombie",
+        "width": 961,
+        "height": 90,
+        "frameW": 120,
+        "frameH": 90,
+        "animations": {
+            "name": "first",
+            "frames": 8
+        }
+    },
+    {
+        "name": "Hand",
+        "width": 446,
+        "height": 80,
+        "frameW": 55,
+        "frameH": 80,
+        "animations": {
+            "name": "first",
+            "frames": 8
+        }
+    },
+    {
+        "name": "Plant",
+        "width": 120,
+        "height": 87,
+        "frameW": 60,
+        "frameH": 87,
+        "animations": {
+            "name": "first",
+            "frames": 2
+        }
+    },
+    {
+        "name": "Raven",
+        "width": 1626,
+        "height": 194,
+        "frameW": 60,
+        "frameH": 194,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Spider",
+        "width": 1860,
+        "height": 175,
+        "frameW": 310,
+        "frameH": 175,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Spider-Big",
+        "width": 720,
+        "height": 144,
+        "frameW": 120,
+        "frameH": 144,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Spinner",
+        "width": 1917,
+        "height": 212,
+        "frameW": 213,
+        "frameH": 212,
+        "animations": {
+            "name": "first",
+            "frames": 9
+        }
+    },
+    {
+        "name": "Worm",
+        "width": 482,
+        "height": 60,
+        "frameW": 80,
+        "frameH": 60,
+        "animations": {
+            "name": "first",
+            "frames": 6
+        }
+    },
+    {
+        "name": "Zombie",
+        "width": 2336,
+        "height": 410,
+        "frameW": 292,
+        "frameH": 410,
+        "animations": {
+            "name": "first",
+            "frames": 8
+        }
+    }
+]

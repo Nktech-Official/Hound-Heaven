@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner </title>
+    <link rel="shortcut icon" href="./assets/icons/icon-192x192.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <div class="fullscreen">
+
+        <canvas id="canvas"></canvas>
+    </div>
+    <img src="./assets/sprites/Player/player.png" alt="player" id="player" class="hidden">
+    <img src="./assets/backgroundLayers/layer-1.png" alt="" class="hidden" id="layer1">
+    <img src="./assets/backgroundLayers/layer-2.png" alt="" class="hidden" id="layer2">
+    <img src="./assets/backgroundLayers/layer-3.png" alt="" class="hidden" id="layer3">
+    <img src="./assets/backgroundLayers/layer-4.png" alt="" class="hidden" id="layer4">
+    <img src="./assets/backgroundLayers/layer-5.png" alt="" class="hidden" id="layer5">
+
+    <img src="./assets/sprites/Enimies/enemy_fly.png" alt="" class="hidden" id="enemy-fly">
+    <img src="./assets/sprites/Enimies/enemy_plant.png" alt="" class="hidden" id="enemy-plant">
+    <img src="./assets/sprites/Enimies/enemy_spider_big.png" alt="" class="hidden" id="enemy-spider">
+    <img src="./assets/sprites/Effects/boom.png" alt="" class="hidden" id="collision">
+    <img src="./assets/icons/lives.png" alt="" class="hidden" id="lives">
+
+    <img src="./assets/img/fire.png" alt="" class="hidden" id="fire">
+    <script type="module" src="./js/main.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+</body>
+
+</html>
