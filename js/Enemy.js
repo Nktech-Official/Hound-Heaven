@@ -73,11 +73,11 @@ export class GroundEnemy extends Enemy {
 
 
     }
-    update() {
-        this.y = this.game.height - this.height - this.game.groundMargin;
+    // update() {
+    //     this.y = this.game.height - this.height - this.game.groundMargin;
 
 
-    }
+    // }
 }
 
 export class ClimbingEnemy extends Enemy {
