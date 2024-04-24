@@ -7,21 +7,33 @@ export class InputHandler {
         this.touchX = ''
         this.touchTreshold = 30;
         this.clickTimer = null;
+        this.keyMap = {
+            "ArrowLeft":"KeyA",
+            "ArrowUp":"KeyW",
+            "ArrowRight":"KeyD",
+            "ArrowDown":"KeyS",
+            "KeyA":"KeyA",
+            "KeyW":"KeyW",
+            "KeyD":"KeyD",
+            "KeyS":"KeyS",
+            "Space":"Space",
+            "KeyT":"KeyT",
+            "KeyR":"KeyR"
+        }
         window.addEventListener('keydown', e => {
-            if ((e.code === 'KeyA' || e.code === 'KeyW' || e.code === "KeyD" || e.code === "KeyS" || e.code === "Space") && this.keys.indexOf(e.code) === -1) {
-                this.keys.push(e.code)
+            if ((this.keyMap[e.code] === 'KeyA' || this.keyMap[e.code] === 'KeyW' || this.keyMap[e.code] === "KeyD" || this.keyMap[e.code] === "KeyS" || this.keyMap[e.code] === "Space") && this.keys.indexOf(this.keyMap[e.code]) === -1) {
+                this.keys.push(this.keyMap[e.code])
             }
-            else if (e.code === 'KeyT') {
+            else if (this.keyMap[e.code] === 'KeyT') {
                 this.game.debug = !this.game.debug
-            } else if (e.code === "KeyR" && game.gameOver) {
+            } else if (this.keyMap[e.code] === "KeyR" && game.gameOver) {
                 restartGame()
             }
 
-
         })
         window.addEventListener('keyup', e => {
-            if (e.code === 'KeyA' || e.code === 'KeyW' || e.code === "KeyD" || e.code === "KeyS" || e.code === "Space") {
-                this.keys.splice(this.keys.indexOf(e.code), 1)
+            if (this.keyMap[e.code] === 'KeyA' || this.keyMap[e.code] === 'KeyW' || this.keyMap[e.code] === "KeyD" || this.keyMap[e.code] === "KeyS" || this.keyMap[e.code] === "Space") {
+                this.keys.splice(this.keys.indexOf(this.keyMap[e.code]), 1)
             }
 
 
