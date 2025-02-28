@@ -1,4 +1,4 @@
-import AnimationState from './SpriteAnimationState.json' ;
+import AnimationState from './SpriteAnimationState.json' assert {type:'json'} ;
 import { Dust, Fire, Splash } from './particle.js';
 const states = {
     SITTING: 0,
